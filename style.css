@@ -1,3 +1,29 @@
+
+.snake{
+    color:rgb(251, 255, 0);
+}
+.puissance4{
+    color:crimson
+}
+.morpion{
+    color:turquoise
+}
+.chifumi{
+    color:rgb(0, 255, 106)
+}
+
+li{
+    font-size: 30px;
+}
+body{
+    background-color: peachpuff;}
+
+.page_principale{
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    width: 100%;
+    color:white;
+}
 *{margin: 0;
 border: 0;
 padding: 0;}
@@ -5,17 +31,12 @@ header{
     bottom: 0cm;
     background-color :rgb(209, 211, 83);
     height : 90px;
+    }
 
-}
-body{
-    background-color: antiquewhite;
-}
 footer{
     background-color: black;
     color : rgb(255, 255, 255);
     height : 50px
-    
-    
 }
 header h1{
     font-size: 50px;
@@ -26,4 +47,8 @@ header h1{
 }
 canvas{
     background-color: black;
+}
+button{
+    background-color: antiquewhite;
+    border: 1;
 }
