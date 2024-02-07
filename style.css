@@ -1,1 +1,29 @@
-p{color:black;}
+*{margin: 0;
+border: 0;
+padding: 0;}
+header{
+    bottom: 0cm;
+    background-color :rgb(209, 211, 83);
+    height : 90px;
+
+}
+body{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: black;
+    color : rgb(255, 255, 255);
+    height : 50px
+    
+    
+}
+header h1{
+    font-size: 50px;
+    color: rgb(4, 0, 255);
+}
+.test{
+    color: rgb(209, 211, 83);
+}
+canvas{
+    background-color: black;
+}
