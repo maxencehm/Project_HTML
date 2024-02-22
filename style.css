@@ -1,6 +1,17 @@
 *{margin: 0;
-border: 0;
-padding: 0;}
+    border: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+@media screen{
+    .page_principale{}
+    .snake{}
+    .chifumi{}
+    .puissance4{}
+    .morpion{}
+}
 .page_principale{
     header{
         background-color: antiquewhite;
@@ -13,18 +24,20 @@ padding: 0;}
     a{
         text-decoration:none;
     }
+    p{
+        vertical-align:center ;
+    }
 }
 header{
     bottom: 0cm;
     background-color :rgb(209, 211, 83);
-    height : 90px;
+    height: 10%;
+    width: 100%;
 }
 
 .snake{
-
     header h1{
-        font-size: 50px;
-        color: rgb(4, 0, 255)
+    color: rgb(4, 0, 255)
     }
     canvas{
         background-color: black;
@@ -46,6 +59,7 @@ li.chifumi{
 
 li{
     font-size: 30px;
+    margin-top:5%;
 }
 body{
     background-color: peachpuff;}
@@ -54,7 +68,8 @@ body{
 footer{
     background-color: black;
     color : rgb(255, 255, 255);
-    height : 50px
+    height : 50px;
+    margin-top:5% ;
 }
 .test{
     color: rgb(209, 211, 83);
