@@ -5,13 +5,7 @@
 body{
     text-align: center;
 }
-@media screen{
-    .page_principale{}
-    .snake{}
-    .chifumi{}
-    .puissance4{}
-    .morpion{}
-}
+
 .page_principale{
     header{
         background-color: antiquewhite;
