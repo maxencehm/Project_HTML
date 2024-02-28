@@ -1,0 +1,19 @@
+header{
+    background-color: crimson;
+}
+#wrap {
+    background-color:crimson ;
+}
+.menu li {
+    background-color:crimson ;
+}
+.menu li:hover,
+a:hover {
+    background-color:crimson;
+}
+.menu li ul li {
+    background-color:crimson ;
+}
+canvas{
+    background-color: black;
+}

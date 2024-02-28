@@ -2,7 +2,8 @@
 <html>
 <head>
     <script src="snake.js" defer onload="innit()"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_global.css">
+    <link rel="stylesheet" href="style_snake.css">
     <meta charset="utf-8"/>
     <title>GAME FUN ! : snake</title>
     <script>
@@ -18,8 +19,8 @@
 
 
 </head>
-<body>
-    <element class="snake">
+<body class="snake">
+    <div class="snake" >
     <header>
         <h1>GAME FUN !</h1>
     </header>
@@ -32,7 +33,7 @@
               <li><a href="Snake.html">snake</a></li>
               <li><a href="Chifumi.html">chifumi</a></li>
               <li><a href="#">morpion</a></li>
-              <li><a href="#">puissace 4</a></li>
+              <li><a href="démineur.html">démineur</a></li>
             </ul>
           </li>
           
@@ -43,11 +44,12 @@
     <canvas id="main-snake" width="750" height="750" onclick="snake()" onload="startingscreen()"></canvas>
     <p>utilisez les fleches directionnels pour deplacer le serpent.</p>
     <p>le but est de recuperer le plus de pommes possible sans que la tete du serpent ne se cogne dans un mur ou une autre partie de son corp. </p>
+    <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">mode invincible</a></button>
     <footer >
         <p id="1">autre</p>
         
     </footer>
-</element>
+</div>
 </body>
 
 
