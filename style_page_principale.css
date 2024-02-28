@@ -1,0 +1,43 @@
+header{
+    background-color: antiquewhite;
+    height: 10%;
+    width: 100%;
+    color:black;
+}
+li.snake {
+    color:rgb(251, 255, 0);}
+
+p{
+    vertical-align:center ;
+}
+#wrap {
+    background-color: antiquewhite;
+}
+.menu li {
+    background-color: antiquewhite;
+}
+.menu li:hover,
+a:hover {
+    background-color:antiquewhite;
+}
+.menu li ul li {
+    background-color: antiquewhite;
+}
+li.démineur{
+    color:crimson
+}
+li.morpion{
+    color:turquoise
+}
+li.chifumi{
+    color:rgb(0, 255, 106)
+}
+
+li{
+    font-size: 30px;
+    margin-top:5%;
+}
+
+        
+        
+        

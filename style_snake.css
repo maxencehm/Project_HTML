@@ -1,0 +1,45 @@
+header{
+    bottom: 0cm;
+    background-color :rgb(251, 255, 0);
+    height: 10%;
+    width: 100%;
+    font-size: 300%;
+    color: rgb(4, 0, 255)
+    }
+    #score{
+        font-size:250%;
+    }
+
+p{
+    font-size: 200%;
+}
+canvas{
+    background-color: black;
+    
+}
+#wrap {
+    background-color: rgb(251, 255, 0);
+}
+
+.menu li {
+    background-color: rgb(251, 255, 0);
+}
+
+.menu li:hover,
+a:hover {
+    background-color: rgb(251, 255, 0);
+}
+
+.menu li ul li.snake {
+    background-color: rgb(251, 255, 0);
+}
+
+.menu a {
+    color: black;
+}
+
+
+
+        
+        
+        
