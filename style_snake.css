@@ -1,6 +1,7 @@
 header{
     bottom: 0cm;
     background-color :rgb(251, 255, 0);
+    font-family: sans-serif;
     height: 10%;
     width: 100%;
     color: rgb(4, 0, 255)
@@ -8,6 +9,7 @@ header{
     #score{
         font-size:250%;
     }
+
 
 canvas{
     background-color: black;
