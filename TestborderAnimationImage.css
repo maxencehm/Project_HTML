@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    }
+    
+    h1 {
+    padding: 2,5rem 1rem;
+    font-size: 3,5rem;
+    }
+    
+    h2 {
+        padding: 1rem 1rem;
+        font-size: 2,5rem;
+        }
+    p { font-size: 1,5rem } 
+    img { width: 100px;
+        box-shadow: 0 0 5px blue; 
+    }
+    
+    .choices > div {
+        display: inline-block;
+        margin: 0 1rem;
+        transition: all 0.7 easi-in-out;
+    }
+    
+        .choices > div:hover{
+            transform: scale(115%);
+            cursor: pointer;
+        }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(4, 75, 97);
+}
