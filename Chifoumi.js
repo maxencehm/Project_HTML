@@ -1,33 +1,35 @@
-let wins= 0; let loses=0;
-const choices= ["rock","paper","scissors"];
+let wins = 0; let loses = 0;
+const choices= ["rock","scissors","paper"];
 const gameStatus = document.getElementById("gameStatus");
 const gameScore = document.getElementById("gameScore");
 const rock = document.getElementById("rock");
-const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
+const paper = document.getElementById("paper");
 
 function runGame(userChoice) {
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-   switch(userChoice + '_' + computerChoice) {
+
+    switch(userChoice + '_' + computerChoice) {
     case 'rock_paper':
     case 'paper_scissors':
     case 'scissors_rock':
         loses  += 1;
-        gameStatus.innerHTML= 'M: ${userChoice} | B: ${computerChoice} -> B Wins'
+        gameStatus.innerHTML= `M: ${userChoice} | B: ${computerChoice} -> B Wins`
         break;
     case 'rock_scissors':
     case 'paper_rock':
     case 'scissors_paper':
         wins  += 1;
-        gameStatus.innerHTML= 'M: ${userChoice} | B: ${computerChoice} -> M Wins'
+        gameStatus.innerHTML= `M: ${userChoice} | B: ${computerChoice} -> M Wins`
         break;
     case 'rock_rock':
     case 'paper_paper':
     case 'scissors_scissors':
-        gameStatus.innerHTML= 'M: ${userChoice} | B: ${computerChoice} -> Egalité'
+        gameStatus.innerHTML = `M: ${userChoice} | B: ${computerChoice} -> Egalité`
         break;
    }
-   gameScore.innerHTML = 'ME: ${wins} | Bot: ${loses}';
+
+   gameScore.innerHTML = `ME: ${wins} | Bot: ${loses}`;
 }
 
 rock.addEventListener("click",()=>console.log("rock"));
