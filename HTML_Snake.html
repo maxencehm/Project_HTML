@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script_snake.js" defer onload="innit()"></script>
+    <link rel="stylesheet" href="style_global.css">
+    <link rel="stylesheet" href="style_snake.css">
+    <meta charset="utf-8"/>
+    <title>GAME FUN ! : snake</title>
+    <script>
+ 
+        window.addEventListener("keydown", function(e) {
+      // space and arrow keys
+      if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+      e.preventDefault();
+      }
+      }, false);
+      </script>
+
+
+
+</head>
+<body class="snake">
+    <div class="snake" >
+    <header>
+        <h1>GAME FUN !</h1>
+        <h2>Snake</h2>
+    </header>
+    <div id="wrap">
+        <ul class="menu">
+          <li>
+            <a href="#">menu</a>
+            <ul>
+                <li><a href="HTML_Site.html">acceuil</a></li>
+              <li><a href="HTML_Snake.html">snake</a></li>
+              <li><a href="HTML_Chifoumi.html">chifoumi</a></li>
+              <li><a href="#">morpion</a></li>
+              <li><a href="démineur.html">démineur</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+    <h1 id="score">score = 0</h1>
+    <p>high score = 226</p>
+    <canvas id="main-snake" width="750" height="750" onclick="snake()" onload="startingscreen()"></canvas>
+    <p>utilisez les fleches directionnels pour deplacer le serpent.</p>
+    <p>le but est de recuperer le plus de pommes possible sans que la tete du serpent ne se cogne dans un mur ou une autre partie de son corp. </p>
+    <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">mode invincible</a></button>
+    <footer >
+      site créé par Theotim HAMPE et Maxence HAUVETTE
+        
+    </footer>
+</div>
+</body>
+
+
+
+</html> 

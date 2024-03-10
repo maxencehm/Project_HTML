@@ -1,0 +1,22 @@
+img{
+    height: 25%;
+    width: 18%;
+}
+html {
+background-color: black;
+color: rgb(0, 204, 255);
+text-align: center;
+}
+.menu a{
+    color: rgb(0, 204, 255);
+}
+header a{
+    color: rgb(0, 204, 255);
+}
+button{
+    background-color: antiquewhite;
+}
+
+
+
+
