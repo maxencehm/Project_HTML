@@ -1,0 +1,1 @@
+le démineur ne fonctionne pas : je n'ai pas réussi à remplacer les cases par les nombres/bombe, je n'ai donc pas fait la découverte en chaine lorsqu'il n'y a pas de bombes au alentours et la detection de fin non plus. du reste, il est tout de meme responsive et le menu fonctionne.

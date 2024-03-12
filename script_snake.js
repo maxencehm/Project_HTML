@@ -80,8 +80,8 @@ function snake(){
     raf = window.requestAnimationFrame(draw);
     onkeydown = (event)=>{
       var p = document.getElementById("1");
-      p.innerHTML = event.key;
       if (event.key=="ArrowDown" && direction_precedente != "N"){
+        console.log("test")
         direction = "S"
       }
       else if (event.key=="ArrowUp" && direction_precedente != "S"){

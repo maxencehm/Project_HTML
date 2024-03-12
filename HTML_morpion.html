@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <link rel="stylesheet" href="style_global.css">
     <link rel="stylesheet" href="style_morpion.css">
     <meta charset="utf-8"/>
     <title>GAME FUN ! : Morpion ⭕</title>
-</head>
-<body>
-    <h1>GAME FUN !</h1>
+  </head>
+  <body>
+    <a href="HTML_Site.html"><h1>GAME FUN !</h1></a>
     <h2> Morpion ⭕</h2>
     <div id="wrap">
-        <ul class="menu">
-          <li>
-            <a href="#">menu</a>
-            <ul>
-                <li><a href="HTML_Site.html">acceuil</a></li>
-              <li><a href="Snake.html">snake</a></li>
-              <li><a href="HTML_Chifoumi.html">chifoumi</a></li>
-              <li><a href="HTML_morpion.html">morpion</a></li>
-              <li><a href="HTML_démineur.html">démineur</a></li>
-              <li><a href="HTML_puissance4.html">puissance 4</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-      </div>
-    <div id="wrap">
+      <ul class="menu">
+        <li>
+          <a href="#">menu</a>
+          <ul>
+            <li><a href="HTML_Site.html">acceuil</a></li>
+            <li><a href="HTML_Snake.html">snake</a></li>
+            <li><a href="HTML_Chifoumi.html">chifoumi</a></li>
+            <li><a href="HTML_morpion.html">morpion</a></li>
+            <li><a href="HTML_démineur.html">démineur</a></li>
+            <li><a href="HTML_puissance4.html">puissance 4</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
     <div class="turn-container">
-        <h3> Tour de</h3>
-        <div class="turn-box align">X</div>
-        <div class="turn-box align">O</div>
-        <div class="bg"></div>
+      <h3> Tour de</h3>
+      <div id="turn-box-X" class="turn-box align">X</div>
+      <div id="turn-box-O" class="turn-box align">O</div>
+      
     </div>
     <div class="main-grid">
-        <div class="box align">0</div>
-        <div class="box align">1</div>
-        <div class="box align">2</div>
-        <div class="box align">3</div>
-        <div class="box align">4</div>
-        <div class="box align">5</div>
-        <div class="box align">6</div>
-        <div class="box align">7</div>
-        <div class="box align">8</div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
+      <div class="box align"></div>
     </div>
     <h2 id="results"></h2>
-    <button id="play-again">Rejouer</button>
-
+    <button id="play-again" onclick="reset()">rejouer</button>
+    <footer>site créé par Theotim HAMPE et Maxence HAUVETTE</footer>
     <script src="script_morpion.js"></script>
-</body>
-</html>
+    </body>
+    </html>

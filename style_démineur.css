@@ -14,6 +14,9 @@ a:hover {
 .menu li ul li {
     background-color:crimson ;
 }
-canvas{
-    background-color: black;
+#main-demineur{
+    width: 750px;
+    height: 750px;
+    margin:auto;
+    font-size:0;
 }
